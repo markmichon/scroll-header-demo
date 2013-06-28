@@ -1,0 +1,32 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+  position:relative;
+  padding-top:4em;
+}
+
+ul {
+  list-style-type:none;
+  text-align:right;
+  padding:0;
+  margin:0;
+}
+li {
+  display:inline-block;
+  margin-right: 1em;
+  line-height: 4em;
+}
+
+.global-header {
+  width: 100%;
+  background-color: #333;
+  color: #efefef;
+  position:fixed;
+  top:0;
+  left:0;
+  transition: top .2s ease-in;
+}
+
+.js-global-header-scrolling {
+ top: -4em; /* Height of the header */
+}
